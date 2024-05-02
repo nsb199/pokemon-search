@@ -26,9 +26,11 @@ body {
 #logo {
     display: block;
     margin: 0 auto;
-    width: 300px;
+    width: 400px;
     max-width: 100%;
+  
 }
+
 
 #pokemon-search-form {
     text-align: center;
@@ -208,4 +210,85 @@ button:active {
     z-index: 1000;
     width: 100px;
     height: 100px;
+}
+
+
+@media (max-width: 600px) {
+    #logo {
+        width: 250px;
+    }
+
+    #pokemon-search-input {
+        width: 130px;
+        font-size: 0.8rem;
+    }
+
+    .flip-card {
+        width: 160px;
+        height: 220px;
+    }
+
+    .content-wrapper {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    #logo {
+        width: 300px;
+    }
+
+    #pokemon-search-input {
+        width: 180px;
+        font-size: 0.9rem;
+    }
+
+    .flip-card {
+        width: 200px;
+        height: 280px;
+    }
+
+    .content-wrapper {
+        padding: 15px;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+    #logo {
+        width: 350px;
+    }
+
+    #pokemon-search-input {
+        width: 200px;
+        font-size: 1rem;
+    }
+
+    .flip-card {
+        width: 220px;
+        height: 300px;
+    }
+
+    .content-wrapper {
+        padding: 20px;
+    }
+}
+
+@media (min-width: 1201px) {
+    #logo {
+        width: 400px;
+    }
+
+    #pokemon-search-input {
+        width: 250px;
+        font-size: 1.1rem;
+    }
+
+    .flip-card {
+        width: 240px;
+        height: 320px;
+    }
+
+    .content-wrapper {
+        padding: 25px;
+    }
 }
